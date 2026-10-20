@@ -1,0 +1,3 @@
+# Reglas de análisis estático recomendadas para apps Flutter.
+# Se revisan con:  flutter analyze
+include: package:flutter_lints/flutter.yaml

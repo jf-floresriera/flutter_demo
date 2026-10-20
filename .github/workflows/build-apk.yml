@@ -1,0 +1,49 @@
+# Compila la app en la nube (GitHub Actions) cada vez que se hace push.
+# El APK resultante queda descargable en: Actions → último run → Artifacts.
+name: Compilar APK
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Instalar Flutter (canal stable)
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Versión de las herramientas
+        run: flutter --version
+
+      - name: Dependencias
+        run: flutter pub get
+
+      - name: Análisis estático
+        run: flutter analyze
+
+      - name: Pruebas
+        run: flutter test
+
+      - name: Compilar APK de release
+        run: flutter build apk --release
+
+      - name: Publicar el APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: hola-flutter-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
