@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 369" width="1200" height="369" role="img" aria-labelledby="t">
+  <title id="t">Del comando flutter create al APK de release, paso a paso (ilustrativo)</title>
+  <rect width="1200" height="369" rx="12" fill="#0B121D" stroke="#22324B"/>
+  <rect width="1200" height="40" rx="12" fill="#121C2C"/><rect y="28" width="1200" height="12" fill="#121C2C"/>
+  <circle cx="26" cy="20" r="6" fill="#E5534B"/><circle cx="46" cy="20" r="6" fill="#D4A72C"/><circle cx="66" cy="20" r="6" fill="#3FB950"/>
+  <text x="600" y="25" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" fill="#8A97AA">terminal — flutter_demo</text>
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="16">
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.03;0.04;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="64" xml:space="preserve"><tspan fill="#54ACFF">$ </tspan><tspan fill="#F0F4FA">flutter doctor</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.103;0.113;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="89" xml:space="preserve"><tspan fill="#6E7D93">  </tspan><tspan fill="#6E7D93"># revisa SDK, toolchain de Android, Android Studio y dispositivos</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.175;0.185;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="114" xml:space="preserve"><tspan fill="#54ACFF">$ </tspan><tspan fill="#F0F4FA">flutter create flutter_demo</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.248;0.258;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="139" xml:space="preserve"><tspan fill="#6E7D93">  </tspan><tspan fill="#6E7D93"># genera lib/main.dart, android/, test/ y pubspec.yaml</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.321;0.331;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="164" xml:space="preserve"><tspan fill="#54ACFF">$ </tspan><tspan fill="#F0F4FA">flutter pub get</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.394;0.404;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="189" xml:space="preserve"><tspan fill="#54ACFF">$ </tspan><tspan fill="#F0F4FA">flutter test</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.466;0.476;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="214" xml:space="preserve"><tspan fill="#3FB950">  </tspan><tspan fill="#3FB950">+1: All tests passed!</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.539;0.549;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="239" xml:space="preserve"><tspan fill="#54ACFF">$ </tspan><tspan fill="#F0F4FA">flutter run</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.612;0.622;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="264" xml:space="preserve"><tspan fill="#6E7D93">  </tspan><tspan fill="#6E7D93"># r = hot reload  ·  R = hot restart  ·  q = salir</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.685;0.695;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="289" xml:space="preserve"><tspan fill="#54ACFF">$ </tspan><tspan fill="#F0F4FA">flutter build apk --release</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.757;0.767;0.96;1" dur="14s" repeatCount="indefinite"/><text x="28" y="314" xml:space="preserve"><tspan fill="#3FB950">  </tspan><tspan fill="#3FB950">✓ build/app/outputs/flutter-apk/app-release.apk</tspan></text></g>
+    <rect x="28" y="323" width="10" height="18" fill="#54ACFF"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
