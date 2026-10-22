@@ -164,14 +164,6 @@ flutter test       # prueba de widget: toca "Saludar" y verifica el texto
 
 <img src="assets/readme/divider.svg" alt="" width="100%">
 
-# Material de la exposición
-
-- [`docs/GUION_DEMO.md`](docs/GUION_DEMO.md) — guion paso a paso del demo en Android Studio: qué
-  mostrar, qué decir y en qué momento.
-- [`docs/PURDUE_MAIZE_EN_LA_MATERIA.md`](docs/PURDUE_MAIZE_EN_LA_MATERIA.md) — la app real
-  *Purdue Maize* recorrida tema por tema del curso: fragmentos de código, explicación y qué
-  pantallazo poner en cada diapositiva.
-
 <img src="assets/readme/divider.svg" alt="" width="100%">
 
 # Autor
